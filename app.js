@@ -41,7 +41,7 @@ onValue(shoppingListInDB, function (snapshot) {
       appendItemToShoppingList(currentItem);
     }
   } else {
-    shoppingListEl.innerHTML = "Please add items";
+    shoppingListEl.innerHTML = "";
   }
 });
 
